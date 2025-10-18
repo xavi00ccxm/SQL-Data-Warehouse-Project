@@ -59,7 +59,7 @@ SQL-Data-Warehouse-Project/
 │
 ├── reports/ # Power BI and Excel dashboards
 ├── README.md # Project overview (this file)
-└── LICENSE # Project license
+└── LICENSE # Project license (MIT License)
 
 🎯 Learning Objectives
 
