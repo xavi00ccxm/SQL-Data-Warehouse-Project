@@ -43,7 +43,7 @@ Front-End Support – Using HTML and CSS to document and present results profess
 
 🧩 Repository Structure
 
-sql-data-warehouse-project/
+SQL-Data-Warehouse-Project/
 │
 ├── datasets/ # Raw and cleaned datasets used in the project
 ├── documents/ # Project documentation, models, and diagrams
