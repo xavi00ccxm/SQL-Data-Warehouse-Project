@@ -2,7 +2,6 @@
 
 This guide defines the standard naming rules for **schemas**, **tables**, **views**, **columns**, and **stored procedures** used in the data warehouse.
 
----
 
 ## 🧭 Table of Contents
 1. [General Standards](#-general-standards)  
@@ -15,7 +14,6 @@ This guide defines the standard naming rules for **schemas**, **tables**, **view
    - [Technical Columns](#technical-columns)  
 4. [Stored Procedures](#%EF%B8%8F-stored-procedures)  
 
----
 
 ## 🪶 General Standards
 
@@ -31,7 +29,6 @@ Avoid SQL reserved words and system keywords.
 ### 🔹 Consistency  
 Keep names short, clear, and consistent across all layers to improve traceability and automation.
 
----
 
 ## 🧱 Table Naming Rules
 
@@ -56,7 +53,6 @@ crm_customer_info
 
 💡 **Tip:** Bronze is your “single source of truth.” Keep it raw, consistent, and traceable.
 
----
 
 ### 🥈 **Silver Layer**  
 The Silver layer standardizes, cleanses, and enriches Bronze data for analytics.
@@ -81,7 +77,6 @@ erp_sales_orders
 - **SCD2** (Slowly Changing Dimensions Type 2) → keeps historical versions for accurate trend analysis.  
 - **DQ Checks** (Data Quality Validation) → detects nulls, duplicates, invalid values, and ensures consistency.
 
----
 
 ### 🥇 **Gold Layer**  
 The Gold layer contains **business-ready data** — aggregated, integrated, and optimized for reporting.
@@ -110,7 +105,6 @@ report_monthly_sales
 - Support **RLS (Row-Level Security)** for controlled access.  
 - Include **aggregated tables** to enhance query performance.
 
----
 
 ### 🗂 **Glossary of Common Prefixes**
 
@@ -120,7 +114,6 @@ report_monthly_sales
 | `fact_` | Fact or transaction table | `fact_sales`, `fact_orders` |
 | `report_` | Reporting or summary table | `report_kpi_summary` |
 
----
 
 ## 🧩 Column Naming Standards
 
@@ -138,7 +131,6 @@ customer_key
 ```
 → Surrogate key for the `dim_customer` table.
 
----
 
 ### ⚙️ Technical Columns
 Metadata and system-generated columns must begin with the prefix `dwh_`.
@@ -158,7 +150,6 @@ dwh_load_date   -- Date record was loaded
 dwh_update_user -- User or process that last modified the record
 ```
 
----
 
 ## ⚡️ Stored Procedures
 Stored procedures manage the **ETL / ELT** flow between layers and must follow a uniform pattern.
@@ -177,7 +168,6 @@ load_gold    -- Aggregates and publishes for reporting
 
 **Tip:** Use consistent naming for easier automation in deployment pipelines and scheduled jobs.
 
----
 
 ### ✅ Summary
 
@@ -185,9 +175,8 @@ Following these conventions ensures:
 - 🔄 Consistent naming across all layers  
 - 🧩 Simplified automation for ETL pipelines  
 - 📊 Seamless integration with BI tools like Power BI  
-- 📁 Readable, professional data architecture documentation
+- 📁 Readable, professional data architecture documentation  
 
----
 
 **Created by:** Otto X. DeLaRocha H  
 *SQL Data Warehouse Project – Medallion Architecture*
