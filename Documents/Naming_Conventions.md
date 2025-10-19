@@ -20,8 +20,6 @@ This guide defines the standard naming rules for **schemas**, **tables**, **view
 ### 🔹 Naming Format  
 Use `snake_case` — all lowercase with underscores separating words.  
 
-### 🔹 Language  
-Use **English** for all object names.  
 
 ### 🔹 Reserved Words  
 Avoid SQL reserved words and system keywords.  
