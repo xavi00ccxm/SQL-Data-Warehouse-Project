@@ -94,6 +94,6 @@ I have advanced experience in SSMS and am steadily expanding my proficiency in .
 I also use HTML and CSS for clear, structured presentation of data and documentation.
 I’ve learned a lot from data professionals and YouTubers who generously share their projects and experiences. 
 Their content has helped me grow and inspired me to keep improving through practice and curiosity.
-![Medallion Architecture Model](Documents/Data_Architecture_Medallion_Model.png)
+![Medallion Architecture Model](Documents/Data_Architecture_Model.png)
 
-*Figure: SQL Data Warehouse Medallion Architecture — Bronze, Silver, Gold.*
+*Figure: SQL Data Warehouse Medallion Architecture — Bronze, Silver, and Gold Layers.*
