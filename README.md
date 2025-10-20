@@ -97,3 +97,13 @@ Their content has helped me grow and inspired me to keep improving through pract
 ![Medallion Architecture Model](Documents/Data_Architecture_Model.png)
 
 *Figure: SQL Data Warehouse Medallion Architecture — Bronze, Silver, and Gold Layers.*
+
+🧠 ETL Architecture (Created in Microsoft Visio)
+
+This diagram represents the Extraction, Transformation, and Loading (ETL) workflow that I designed and built from scratch in Microsoft Visio.
+It highlights extraction types and techniques, transformation logic, and load methods used in data warehousing processes.
+
+![ETL Architecture - Microsoft Visio](documents/ETL_Methods_Visio.png)
+
+
+🧩 Created in Microsoft Visio (A4 landscape, 300 DPI). This diagram demonstrates understanding of ETL concepts and data pipeline design.
