@@ -103,6 +103,6 @@ Their content has helped me grow and inspired me to keep improving through pract
 This diagram represents the Extraction, Transformation, and Loading (ETL) workflow that I designed and built from scratch in Microsoft Visio.  
 It highlights extraction types and techniques, transformation logic, and load methods used in data warehousing processes.
 
-![ETL Architecture - Microsoft Visio](Documents/ETL_Modeling.png)
+![ETL Architecture - Microsoft Visio](Documents/ETL%20Modeling.png)
 
 > 🧩 Created in Microsoft Visio (A4 landscape, 300 DPI). This diagram demonstrates understanding of ETL concepts and data pipeline design.
