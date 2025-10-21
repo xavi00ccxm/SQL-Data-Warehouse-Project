@@ -38,54 +38,61 @@ Front-End Support – Using HTML and CSS to document and present results profess
     <th>Folder / File</th>
     <th>Description</th>
   </tr>
+
   <tr>
     <td><b style="color:#cd7f32;">datasets/</b></td>
     <td>📊 <span style="color:#cd7f32;">Raw and cleaned datasets used in the project</span></td>
   </tr>
+
   <tr>
     <td><b style="color:#4682b4;">documents/</b></td>
-    <td>🗂️ Project documentation, models, and diagrams</td>
+    <td>📂 Project documentation, models, and diagrams</td>
   </tr>
+
   <tr>
-    <td>&nbsp;&nbsp;├── data_architecture.png</td>
+    <td>&nbsp;&nbsp;↳ 🖼️ data_architecture.png</td>
     <td>System architecture diagram</td>
   </tr>
   <tr>
-    <td>&nbsp;&nbsp;├── data_catalog.md</td>
+    <td>&nbsp;&nbsp;↳ 📘 data_catalog.md</td>
     <td>Metadata and data definitions</td>
   </tr>
   <tr>
-    <td>&nbsp;&nbsp;├── data_models.png</td>
+    <td>&nbsp;&nbsp;↳ 🧩 data_models.png</td>
     <td>Entity-relationship and dimensional models</td>
   </tr>
   <tr>
-    <td>&nbsp;&nbsp;├── naming-conventions.md</td>
+    <td>&nbsp;&nbsp;↳ 🏷️ naming-conventions.md</td>
     <td>Standards for naming tables, columns, and files</td>
   </tr>
+
   <tr>
     <td><b style="color:#cd7f32;">scripts/</b></td>
     <td>⚙️ SQL scripts for each architecture layer</td>
   </tr>
   <tr>
-    <td>&nbsp;&nbsp;├── <span style="color:#cd7f32;">bronze/</span></td>
+    <td>&nbsp;&nbsp;↳ <span style="color:#cd7f32;">🥉 bronze/</span></td>
     <td>Raw data ingestion</td>
   </tr>
   <tr>
-    <td>&nbsp;&nbsp;├── <span style="color:#c0c0c0;">silver/</span></td>
+    <td>&nbsp;&nbsp;↳ <span style="color:#c0c0c0;">🥈 silver/</span></td>
     <td>Data transformation and cleaning</td>
   </tr>
   <tr>
-    <td>&nbsp;&nbsp;├── <span style="color:#ffd700;">gold/</span></td>
+    <td>&nbsp;&nbsp;↳ <span style="color:#ffd700;">🥇 gold/</span></td>
     <td>Data modeling for analytics</td>
   </tr>
+
   <tr>
     <td><b style="color:#2e8b57;">reports/</b></td>
-    <td>📈 Power BI and Excel dashboards</td>
+    <td>📊 Power BI and Excel dashboards</td>
   </tr>
+
   <tr>
     <td>README.md</td>
     <td>🧾 Project overview (this file)</td>
   </tr>
+
   <tr>
     <td>LICENSE</td>
     <td>⚖️ Project license (MIT License)</td>
