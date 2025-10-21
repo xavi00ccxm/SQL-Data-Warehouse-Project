@@ -34,7 +34,8 @@ Front-End Support – Using HTML and CSS to document and present results profess
 <h2 style="border-bottom:none; margin-bottom:10px;">🧩 Repository Structure</h2>
 
 
-<table>
+<table style="border-top:none; border-collapse:collapse;">
+
   <tr>
     <th>Folder / File</th>
     <th>Description</th>
