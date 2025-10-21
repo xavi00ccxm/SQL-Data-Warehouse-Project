@@ -31,11 +31,9 @@ Data Analysis – Interpreting metrics, performance, and trends for stakeholders
 
 Front-End Support – Using HTML and CSS to document and present results professionally.
 
-<h2 style="border-bottom:none; margin-bottom:10px;">🧩 Repository Structure</h2>
+### 🧩 Repository Structure
 
-
-<table style="border-top:none; border-collapse:collapse;">
-
+<table style="border:none; border-collapse:collapse;">
   <tr>
     <th>Folder / File</th>
     <th>Description</th>
@@ -100,6 +98,7 @@ Front-End Support – Using HTML and CSS to document and present results profess
     <td>⚖️ Project license (MIT License)</td>
   </tr>
 </table>
+
 
 
 
