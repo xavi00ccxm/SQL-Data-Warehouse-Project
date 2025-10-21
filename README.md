@@ -31,7 +31,8 @@ Data Analysis – Interpreting metrics, performance, and trends for stakeholders
 
 Front-End Support – Using HTML and CSS to document and present results professionally.
 
-## 🧩 Repository Structure
+<h2 style="border-bottom:none; margin-bottom:10px;">🧩 Repository Structure</h2>
+
 
 <table>
   <tr>
