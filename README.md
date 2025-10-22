@@ -1,5 +1,4 @@
-SQL Data Warehouse Project
-
+# SSMS Data Modeling and Engineering
 Building a Modern Data Warehouse Using SQL Server, ETL, Data Modeling, and Analytics
 
 📘 Project Overview
